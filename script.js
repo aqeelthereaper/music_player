@@ -23,12 +23,17 @@ playButtons.forEach((button) => {
 
     if (currentButton) {
       currentButton.classList.replace("fa-pause", "fa-play");
+      currentButton.closest(".card").classList.remove("active");
     }
+
 
     audio.src = song;
     audio.play();
 
     button.classList.replace("fa-play", "fa-pause");
     currentButton = button;
+    card.classList.add("active");
+
   });
 });
+
