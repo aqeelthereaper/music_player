@@ -1,12 +1,12 @@
 *{
-  font-family: system-ui, sans-serif;
+  font-family: system-ui, comic-sans;
   box-sizing: border-box;
 }
 
 body{
   margin:0;
-  background:#0B0F19;
-  color:#fff;
+  background:#ffffff;
+  color:#000;
 }
 
 .navbar{
@@ -81,3 +81,4 @@ body{
   width: 90%;
   filter: invert(1) brightness(1.2);
 }
+
