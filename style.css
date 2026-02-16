@@ -6,7 +6,7 @@
 body{
   margin:0;
   background:#000;
-  color:#000;
+  color:#fff;
 }
 
 .navbar{
@@ -81,6 +81,7 @@ body{
   width: 90%;
   filter: invert(1) brightness(1.2);
 }
+
 
 
 
