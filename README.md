@@ -1,2 +1,22 @@
-# music_player
- Local Music Player is a web-based application created using HTML, CSS, and JavaScript. It allows users to play multiple locally stored audio files with play and pause controls. The project uses dynamic audio switching, displays album images, and ensures only one song plays at a time using JavaScript logic.
+# Local Music Player
+
+This is a simple local music player built using basic web development concepts.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Font Awesome for icons
+
+## Features
+- Clean dark-themed UI
+- Song cards with album covers
+- Play and pause functionality
+- Local audio playback
+
+## Folder Structure
+- index.html → Main structure
+- styles.css → Design and layout
+- script.js → Music player functionality
+- audio/ → Song files
+- pics/ → Album images
